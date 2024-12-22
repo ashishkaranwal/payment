@@ -1,0 +1,557 @@
+[02-Oct-2024 11:27:18 UTC] PHP Warning:  require_once(./lib/config_paytm.php): Failed to open stream: No such file or directory in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/PaytmGateway.php on line 2
+[02-Oct-2024 11:27:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './lib/config_paytm.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/PaytmGateway.php:2
+Stack trace:
+#0 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/PaymentHandler.php(2): require_once()
+#1 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php(2): require_once('/home/citocojkp...')
+#2 {main}
+  thrown in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/PaytmGateway.php on line 2
+[02-Oct-2024 11:30:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/callback.php on line 23
+[03-Oct-2024 15:57:08 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 15
+[03-Oct-2024 15:57:08 UTC] PHP Warning:  Undefined array key "MAIL" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 20
+[03-Oct-2024 15:57:08 UTC] PHP Warning:  Undefined variable $api in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 27
+[03-Oct-2024 15:57:08 UTC] PHP Warning:  Attempt to read property "order" on null in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 27
+[03-Oct-2024 15:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function create() on null in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php:27
+Stack trace:
+#0 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/PaymentHandler.php(24): RazorpayGateway->pay()
+#1 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php(19): PaymentHandler->processPayment()
+#2 {main}
+  thrown in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 27
+[03-Oct-2024 16:05:29 UTC] PHP Parse error:  syntax error, unexpected variable "$api_key", expecting "function" or "const" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 11
+[03-Oct-2024 16:11:17 UTC] PHP Fatal error:  New expressions are not supported in this context in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 13
+[03-Oct-2024 16:19:20 UTC] PHP Warning:  Undefined array key "MAIL" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/razorpay/RazorpayGateway.php on line 26
+[03-Oct-2024 17:27:41 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[03-Oct-2024 17:27:43 UTC] PHP Warning:  Undefined array key "links" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 38
+[03-Oct-2024 17:27:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 38
+[03-Oct-2024 17:28:24 UTC] PHP Warning:  Undefined array key "links" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 38
+[03-Oct-2024 17:28:24 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 38
+[03-Oct-2024 17:37:43 UTC] PHP Warning:  Undefined array key "links" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 40
+[03-Oct-2024 17:37:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 40
+[04-Nov-2024 14:17:30 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[04-Nov-2024 14:18:24 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[26-Nov-2024 16:22:55 UTC] PayPal Order Creation Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f49440164c29a
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:24:06 UTC] PayPal Order Creation Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f383516999109
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:26:37 UTC] PayPal Order Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f358584c9923d
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:26:37 UTC] PayPal Order Creation Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f358584c9923d
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:28:08 UTC] PayPal Order Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f664177f91b34
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:28:08 UTC] PayPal Order Creation Response: Array
+(
+    [name] => INVALID_REQUEST
+    [message] => Request is not well-formed, syntactically incorrect, or violates schema.
+    [debug_id] => f664177f91b34
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/cancel_url
+                    [value] => ./paypal/payment-cancel.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+            [1] => Array
+                (
+                    [field] => /payment_source/paypal/experience_context/return_url
+                    [value] => ./paypal/payment-success.php
+                    [location] => body
+                    [issue] => INVALID_PARAMETER_SYNTAX
+                    [description] => The value of a field does not conform to the expected format.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/docs/api/orders/v2/#error-INVALID_PARAMETER_SYNTAX
+                    [rel] => information_link
+                    [encType] => application/json
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:29:58 UTC] PayPal Order Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f78562a91'/shipping/address
+                    [issue] => MISSING_SHIPPING_ADDRESS
+                    [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f37559654773f
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#MISSING_SHIPPING_ADDRESS
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:29:58 UTC] PayPal Order Creation Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f78562a91'/shipping/address
+                    [issue] => MISSING_SHIPPING_ADDRESS
+                    [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f37559654773f
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#MISSING_SHIPPING_ADDRESS
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:31:24 UTC] PayPal Order Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f7db33444'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f52458502668b
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:31:24 UTC] PayPal Order Creation Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f7db33444'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f52458502668b
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:32:33 UTC] PayPal Order Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f820eda83'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f2026190d3266
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:32:33 UTC] PayPal Order Creation Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f820eda83'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f2026190d3266
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:38:56 UTC] PayPal Order Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f99f89e78'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f445897e8d7fe
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 16:38:56 UTC] PayPal Order Creation Response: Array
+(
+    [name] => UNPROCESSABLE_ENTITY
+    [details] => Array
+        (
+            [0] => Array
+                (
+                    [field] => /purchase_units/@reference_id=='6745f99f89e78'/shipping/address/admin_area_2
+                    [issue] => CITY_REQUIRED
+                    [description] => The specified country requires a city (address.admin_area_2)
+                )
+
+        )
+
+    [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+    [debug_id] => f445897e8d7fe
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CITY_REQUIRED
+                    [rel] => information_link
+                    [method] => GET
+                )
+
+        )
+
+)
+
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "CUST_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 9
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "INDUSTRY_TYPE_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 10
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "CHANNEL_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 11
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "PHN" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 13
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "EMAIL" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 14
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 9
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 10
+[26-Nov-2024 17:35:14 UTC] PHP Warning:  Undefined array key "gateway" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/callback.php on line 6
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "CUST_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 9
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "INDUSTRY_TYPE_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 10
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "CHANNEL_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 11
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "PHN" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 13
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "EMAIL" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 14
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 9
+[26-Nov-2024 17:38:48 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 10
+[26-Nov-2024 17:40:30 UTC] PHP Warning:  require_once(./paypal/PayPalGateway.php): Failed to open stream: No such file or directory in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/ResponseHandler.php on line 4
+[26-Nov-2024 17:40:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './paypal/PayPalGateway.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/ResponseHandler.php:4
+Stack trace:
+#0 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/callback.php(2): require_once()
+#1 {main}
+  thrown in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/ResponseHandler.php on line 4
+[26-Nov-2024 17:41:11 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 29
+[26-Nov-2024 17:41:11 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 30
+[26-Nov-2024 17:41:11 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 31
+[26-Nov-2024 17:41:11 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 32
+[26-Nov-2024 17:41:57 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 31
+[26-Nov-2024 17:41:57 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 32
+[26-Nov-2024 17:41:57 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 33
+[26-Nov-2024 17:41:57 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 34
+[26-Nov-2024 17:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PayPalGateway::processResponse() in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/ResponseHandler.php:29
+Stack trace:
+#0 /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/callback.php(15): PaymentResponseHandler->handleResponse()
+#1 {main}
+  thrown in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/ResponseHandler.php on line 29
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "CUST_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 9
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "INDUSTRY_TYPE_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 10
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "CHANNEL_ID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 11
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "PHN" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 13
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "EMAIL" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 14
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "CUST_NAME" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/pay.php on line 15
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 8
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 9
+[26-Nov-2024 17:45:54 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 10
+[26-Nov-2024 17:46:36 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 8
+[26-Nov-2024 17:46:36 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 9
+[26-Nov-2024 17:46:36 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 10
+[26-Nov-2024 17:47:45 UTC] PHP Warning:  Undefined array key "STATUS" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 8
+[26-Nov-2024 17:47:45 UTC] PHP Warning:  Undefined array key "RESPMSG" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 9
+[26-Nov-2024 17:47:45 UTC] PHP Warning:  Undefined array key "ORDERID" in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paypal/PaypalGateway.php on line 10
+[29-Nov-2024 13:07:08 UTC] PHP Deprecated:  Implicit conversion from float 127064.00000000001 to int loses precision in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/lib/encdec_paytm.php on line 19
+[30-Nov-2024 05:14:55 UTC] PHP Deprecated:  Implicit conversion from float 129561.00000000001 to int loses precision in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/lib/encdec_paytm.php on line 19
+[05-Dec-2024 12:07:36 UTC] PHP Deprecated:  Implicit conversion from float 32043.000000000004 to int loses precision in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/lib/encdec_paytm.php on line 19
+[19-Dec-2024 02:13:14 UTC] PHP Deprecated:  Implicit conversion from float 257411.99999999997 to int loses precision in /home/citocojkp6q3/public_html/api.akshitaastrotarot.com/payment/paytm/lib/encdec_paytm.php on line 19
